@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Norse Bold';
+    src: url('fonts/norse-bold-webfont.woff') format(woff),
+        url('fonts/norse-bold-webfont.woff2') format(woff2);
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 30%;
+    background-image: url('welcome.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.logo-part {
+    font-family: 'Norse Bold';
+    font-size: 10vh;
+    
+}
+
+.form-part {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.caption {
+    height: 40vh;
+}
+
+.form {
+    height: 30vh;
+}
+
+.submit {
+    height: 30vh;
+}
