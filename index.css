@@ -23,15 +23,44 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color: white;
     display: flex;
     flex-direction: column;
-    color: white;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.centerer {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .logo-part {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 16vh;
+}
+
+.logo-part p {
     font-family: 'Norse Bold';
     font-size: 10vh;
-    
+}
+
+.logo-part img {
+    height: 14vh;
+}
+
+.credit {
+    margin-top: auto;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 1vh;
 }
 
 .form-part {
@@ -42,12 +71,25 @@ body {
 
 .caption {
     height: 40vh;
+    background-color: #f9fafb;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.caption p {
+    font-size: 20px;
+    margin: 0 18em 2em 2em;
+    font-weight: 500;
 }
 
 .form {
     height: 30vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .submit {
     height: 30vh;
+    background-color: #f9fafb;
 }
