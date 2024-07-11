@@ -63,6 +63,11 @@ body {
     margin-bottom: 1vh;
 }
 
+.credit a {
+    color: white;
+    padding: 0 0.3em 0 0.3em;
+}
+
 .form-part {
     width: 70%;
     display: flex;
@@ -158,7 +163,9 @@ input:focus:invalid {
     margin-bottom: 2rem;
 }
 
-a {
+
+
+.submit a {
     color: #596D48;
     font-weight: 600;
 }
