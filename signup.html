@@ -33,36 +33,49 @@
 
         <div class="form">
             <p>Let's do this!</p>
-            <form>
-                <label for="first-name">First Name</label>
-                <input type="text" name="first-name" id="first-name"
-                required />
+            <form action="/submit-url" method="post">
+            <div class="container-form">
+                <div class="left">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" name="first-name" id="first-name"
+                    required placeholder="John"/>
 
-                <label for="last-name">Last Name</label>
-                <input type="text" name="last-name" id="last-name"
-                required />
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email"
+                    required placeholder="johndoe@email.com"/>                    
 
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email"
-                required />
+                    <label for="pass">PASSWORD</label>
+                    <input type="password" name="pass" id="pass"
+                    required minlength="8" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+                    placeholder="Johndoe69"/>
+                </div>
 
-                <label for="number">Phone Number</label>
-                <input type="number" name="number" id="number"
-                required />
+                <div class="right">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" name="last-name" id="last-name"
+                    required placeholder="Doe"/>
 
-                <label for="pass">Password</label>
-                <input type="text" name="pass" id="pass"
-                required />
+                    <label for="number">PHONE NUMBER</label>
+                    <input type="tel" name="number" id="number"
+                    required placeholder="09xxxxxxxxx" maxlength="11"/>
 
-                <label for="pass2">Confirm Password</label>
-                <input type="text" name="pass2" id="pass2"
-                required />
+                    <label for="pass2">CONFIRM PASSWORD</label>
+                    <input type="password" name="pass2" id="pass2"
+                    required minlength="8" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+                    placeholder="Johndoe69" />
+
+                </div>
+
+            </div>
+                
             </form>
         </div>
 
         <div class="submit">
-            <button type="submit" class="buttones">Create Account</button>
-            <p>Already have an account? <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Log in</a></p>
+            <div class="containersub">
+                <button type="submit" class="buttones">Create Account</button>
+                <p>Already have an account? <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Log in</a></p>
+            </div>
         </div>
     </div>
 
